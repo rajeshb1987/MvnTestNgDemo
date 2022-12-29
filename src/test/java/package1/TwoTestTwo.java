@@ -45,7 +45,7 @@ public class TwoTestTwo {
 		  driver.get("https://www.amazon.com/");
 		  Reporter.log("title:"+driver.getTitle());
 		  
-		  Reporter.log("Page title:");
+		  Reporter.log("Page URL:"+driver.getCurrentUrl());
 		 
 	}
 
