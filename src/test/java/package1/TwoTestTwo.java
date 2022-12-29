@@ -27,7 +27,7 @@ public class TwoTestTwo {
 		
 		
 		  String browserName = System.getProperty("browser")!=null?System.getProperty("browser"):prop.getProperty("browser");
-		  
+		  System.out.println("BROWSER:"+browserName);
 		  if(browserName.equalsIgnoreCase("chrome"))
 		  {
 			   driver = new ChromeDriver();
@@ -43,9 +43,9 @@ public class TwoTestTwo {
 		  
 		  
 		  driver.get("https://www.amazon.com/");
-		  Reporter.log("title:"+driver.getTitle());
+		  System.out.println("title:"+driver.getTitle());
 		  
-		  Reporter.log("Page URL:"+driver.getCurrentUrl());
+		  System.out.println("Page URL:"+driver.getCurrentUrl());
 		 
 	}
 
