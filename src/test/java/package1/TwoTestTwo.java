@@ -17,6 +17,7 @@ public class TwoTestTwo {
 	@Test
 	public void TwoTestmethod() throws IOException
 	{
+		System.out.println("##### START - AFTER JENKINS-GITHUB integration #############");
 		System.out.println("TwoTestmethod");
 		
 		
@@ -46,6 +47,7 @@ public class TwoTestTwo {
 		  System.out.println("title:"+driver.getTitle());
 		  
 		  System.out.println("Page URL:"+driver.getCurrentUrl());
+		  System.out.println("##### END  -  AFTER JENKINS-GITHUB integration #############");
 		 
 	}
 
