@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[title:Amazon.com. Spend less. Smile more.]]>
+    </line>
+    <line>
+      <![CDATA[Page title:]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-12-29T12:20:04 IST" name="Suite2" finished-at="2022-12-29T12:20:11 IST" duration-ms="7340">
+    <groups>
+    </groups>
+    <test started-at="2022-12-29T12:20:04 IST" name="test2" finished-at="2022-12-29T12:20:11 IST" duration-ms="7340">
+      <class name="package1.TwoTestTwo">
+        <test-method signature="TwoTestmethod()[pri:0, instance:package1.TwoTestTwo@5e82df6a]" started-at="2022-12-29T12:20:04 IST" name="TwoTestmethod" finished-at="2022-12-29T12:20:11 IST" duration-ms="7311" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[title:Amazon.com. Spend less. Smile more.]]>
+            </line>
+            <line>
+              <![CDATA[Page title:]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TwoTestmethod -->
+      </class> <!-- package1.TwoTestTwo -->
+    </test> <!-- test2 -->
+  </suite> <!-- Suite2 -->
+</testng-results>

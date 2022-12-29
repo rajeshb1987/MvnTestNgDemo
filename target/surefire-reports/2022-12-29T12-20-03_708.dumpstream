@@ -1,0 +1,5 @@
+# Created at 2022-12-29T12:20:04.013
+Boot Manifest-JAR contains absolute paths in classpath 'D:\From_Lenovo\D_Drive\D Drive\Personal\ZZZZZZ\AT@12\AT12_Workspace\MvnTestNgDemo\target\test-classes'
+Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
+'other' has different root
+
