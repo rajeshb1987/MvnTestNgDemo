@@ -52,6 +52,7 @@ public class TwoTestTwo {
 		  System.out.println("HERE 444444444444444444");
 		  System.out.println("##### END  -  AFTER JENKINS-GITHUB integration #############");
 		System.out.println("********** Changed in GIT HUB file *****************");
+		System.out.println("********** Changed in Eclipse *****************");
 		 
 	}
 
