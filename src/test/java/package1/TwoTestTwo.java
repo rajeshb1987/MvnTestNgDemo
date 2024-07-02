@@ -21,8 +21,8 @@ public class TwoTestTwo {
 		System.out.println("TwoTestmethod");
 		
 		
-		  Properties prop = new Properties(); FileInputStream fis = new
-		  FileInputStream(System.getProperty("user.dir")+"//src//test//java//resources//GlobalData.properties");
+		  Properties prop = new Properties(); 
+		  FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//test//java//resources//GlobalData.properties");
 		  prop.load(fis);
 		  WebDriver driver=null;
 		
