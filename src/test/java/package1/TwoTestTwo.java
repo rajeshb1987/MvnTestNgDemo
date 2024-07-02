@@ -26,7 +26,7 @@ public class TwoTestTwo {
 		  prop.load(fis);
 		  WebDriver driver=null;
 		
-		  //System.setProperty("webdriver.chrome.driver", "");
+		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajes\\Downloads\\drivers\\chromedriver.exe");
 		  String browserName = System.getProperty("browser")!=null?System.getProperty("browser"):prop.getProperty("browser");
 		  System.out.println("BROWSER:"+browserName);
 		  if(browserName.equalsIgnoreCase("chrome"))
