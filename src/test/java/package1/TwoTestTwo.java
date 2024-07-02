@@ -46,7 +46,7 @@ public class TwoTestTwo {
 		  driver.get("https://www.amazon.com/");
 		  System.out.println("title:"+driver.getTitle());
 		 System.out.println("title printed**********************");
-		 System.out.println("title printed twice....**********************");
+		 System.out.println("title printed hello.**********************");
 		  
 		  System.out.println("Page URL:"+driver.getCurrentUrl());
 		  System.out.println("HERE 111111111111222222222222222");
