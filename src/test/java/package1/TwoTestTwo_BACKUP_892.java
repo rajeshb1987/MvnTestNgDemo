@@ -25,7 +25,12 @@ public class TwoTestTwo {
 		  FileInputStream fis = new FileInputStream(System.getProperty("user.dir")+"//src//test//java//resources//GlobalData.properties");
 		  prop.load(fis);
 		  WebDriver driver=null;
-
+		
+<<<<<<< HEAD
+		  
+=======
+		  System.setProperty("webdriver.chrome.driver", "C:\\Users\\rajes\\Downloads\\drivers\\chromedriver.exe");
+>>>>>>> be1a01b35f50485df9d1fc92e66ba1900dc3ce21
 		  String browserName = System.getProperty("browser")!=null?System.getProperty("browser"):prop.getProperty("browser");
 		  System.out.println("BROWSER:"+browserName);
 		  if(browserName.equalsIgnoreCase("chrome"))
