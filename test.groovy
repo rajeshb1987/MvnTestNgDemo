@@ -18,7 +18,7 @@ pipeline {
         }
         stage('Run test'){
             steps{
-                bat script:'mvn clean test -Dbrowser=chrome'
+                bat script:'mvn clean test -Dbrowser=$browser'
             }
         }
         stage('Publish Report'){
